@@ -17,8 +17,7 @@ do
   		echo "Back up $file to BlogArticles."
 	fi
 done
-echo "All articles backed up.\n"
-echo "======> Synchronize articles to Github ↓\n"
+echo "All articles backed up."
 cd $B_Dir
 git add -A
 git commit -m "Synchronize blog articles"
